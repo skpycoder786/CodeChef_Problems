@@ -9,9 +9,9 @@ for i in range(T):
     tt=float(100/dis)
     ftt=round(tt,2)
     if(ftt<9.58):
-        LResult.append("YES")
+        LResult.append("yes")
     else:
-        LResult.append("NO")
+        LResult.append("no")
         
 for i in range(T):
     print(LResult[i])
